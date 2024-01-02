@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.1 on win32)" generated="20240101 07:05:13.996" rpa="false" schemaversion="4">
+<suite id="s1" name="Testcaseforrobot" source="C:\python\pycharm\pythonpytest\robottest\testcaseforrobot.robot">
+<test id="s1-t1" name="Login with MFA" line="10">
+<kw name="New Page" library="Browser">
+<arg>https://seleniumbase.io/realworld/login</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<msg timestamp="20240101 07:05:28.574" level="INFO">Keyword 'Take Screenshot  fail-screenshot-{index}' could not be run on failure:
+Error: Tried to take screenshot, but no page was open.</msg>
+<msg timestamp="20240101 07:05:28.574" level="INFO">See also file:///C:/python/pycharm/pythonpytest/robottest/playwright-log.txt for additional details.</msg>
+<msg timestamp="20240101 07:05:28.575" level="FAIL">Error: browserType.launch: Timeout 10000ms exceeded.
+Tip: Use "Set Browser Timeout" for increasing the timeout or double check your locator as the targeted element(s) couldn't be found.</msg>
+<status status="FAIL" starttime="20240101 07:05:17.142" endtime="20240101 07:05:29.009"/>
+</kw>
+<kw name="Fill Text" library="Browser">
+<arg>selector</arg>
+<arg>txt</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="NOT RUN" starttime="20240101 07:05:29.512" endtime="20240101 07:05:29.512"/>
+</kw>
+<kw name="Fill Text" library="Browser">
+<arg>id=username</arg>
+<arg>demo_user</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="NOT RUN" starttime="20240101 07:05:29.513" endtime="20240101 07:05:29.514"/>
+</kw>
+<kw name="Fill Text" library="Browser">
+<arg>id=password</arg>
+<arg>secret_pass</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="NOT RUN" starttime="20240101 07:05:29.515" endtime="20240101 07:05:29.515"/>
+</kw>
+<kw name="Get Totp" library="otp">
+<var>${totp}</var>
+<arg>GAXG2MTEOR3DMMDG</arg>
+<status status="NOT RUN" starttime="20240101 07:05:29.522" endtime="20240101 07:05:29.522"/>
+</kw>
+<kw name="Fill Text" library="Browser">
+<arg>id=totpcode</arg>
+<arg>${totp}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="NOT RUN" starttime="20240101 07:05:29.522" endtime="20240101 07:05:29.522"/>
+</kw>
+<kw name="Click" library="Browser">
+<arg>"Sign in"</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="NOT RUN" starttime="20240101 07:05:29.523" endtime="20240101 07:05:29.523"/>
+</kw>
+<kw name="Get Text" library="Browser">
+<arg>h1</arg>
+<arg>==</arg>
+<arg>Welcome!</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="NOT RUN" starttime="20240101 07:05:29.523" endtime="20240101 07:05:29.523"/>
+</kw>
+<status status="FAIL" starttime="20240101 07:05:17.134" endtime="20240101 07:05:29.524">Error: browserType.launch: Timeout 10000ms exceeded.
+Tip: Use "Set Browser Timeout" for increasing the timeout or double check your locator as the targeted element(s) couldn't be found.</status>
+</test>
+<status status="FAIL" starttime="20240101 07:05:14.000" endtime="20240101 07:05:32.415"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Testcaseforrobot">Testcaseforrobot</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

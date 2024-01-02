@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.1 on win32)" generated="20240102 12:04:25.388" rpa="false" schemaversion="4">
+<suite id="s1" name="Robotdecorators" source="C:\python\pycharm\pythonpytest\pylib\robotdecorators.robot">
+<test id="s1-t1" name="Test Keywords" line="5">
+<kw name="Login via user panel" library="robotdecorators">
+<msg timestamp="20240102 12:04:25.467" level="INFO">decorator for robot keyword</msg>
+<status status="PASS" starttime="20240102 12:04:25.466" endtime="20240102 12:04:25.467"/>
+</kw>
+<status status="PASS" starttime="20240102 12:04:25.465" endtime="20240102 12:04:25.467"/>
+</test>
+<status status="PASS" starttime="20240102 12:04:25.394" endtime="20240102 12:04:25.478"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robotdecorators">Robotdecorators</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

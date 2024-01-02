@@ -1,0 +1,48 @@
+{"level":30,"time":"2024-01-01T18:26:41.001Z","pid":8080,"hostname":"mahen","msg":"Listening on 54739"}
+{"level":30,"time":"2024-01-01T18:26:41.697Z","pid":8080,"hostname":"mahen","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-01T18:26:41.699Z","pid":8080,"hostname":"mahen","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-01T18:26:41.706Z","pid":8080,"hostname":"mahen","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-01T18:26:41.706Z","pid":8080,"hostname":"mahen","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-01T18:26:41.716Z","pid":8080,"hostname":"mahen","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-01-01T18:26:41.717Z","pid":8080,"hostname":"mahen","msg":"currentBrowser: undefined"}
+{"level":30,"time":"2024-01-01T18:26:51.740Z","pid":8080,"hostname":"mahen","msg":"Error of node method  newPage"}
+================= Original suppressed error =================
+browserType.launch: Timeout 10000ms exceeded.
+    at _newBrowser (C:\Users\mahen\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9848:49)
+    at PlaywrightState.getOrCreateActiveBrowser (C:\Users\mahen\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9999:37)
+    at newPage (C:\Users\mahen\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10254:43)
+    at PlaywrightServer.newPage (C:\Users\mahen\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10603:34)
+    at handleUnary (C:\Users\mahen\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:852:17)
+=============================================================
+================= Original suppressed error =================
+Error: Tried to take screenshot, but no page was open.
+    at exists (C:\Users\mahen\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8609:11)
+    at takeScreenshot (C:\Users\mahen\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:8653:3)
+    at PlaywrightServer.takeScreenshot (C:\Users\mahen\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10603:34)
+    at handleUnary (C:\Users\mahen\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:852:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+=============================================================
+{"level":30,"time":"2024-01-01T18:26:53.129Z","pid":8080,"hostname":"mahen","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-01-01T18:26:53.130Z","pid":8080,"hostname":"mahen","msg":"Error of node method  takeScreenshot"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\mahen\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9968:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\mahen\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10588:59)
+    at PlaywrightServer.setTimeout (C:\Users\mahen\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10838:57)
+    at handleUnary (C:\Users\mahen\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:852:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+=============================================================
+{"level":30,"time":"2024-01-01T18:26:59.319Z","pid":8080,"hostname":"mahen","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-01T18:26:59.319Z","pid":8080,"hostname":"mahen","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\mahen\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9968:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\mahen\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10588:59)
+    at PlaywrightServer.setTimeout (C:\Users\mahen\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10838:57)
+    at handleUnary (C:\Users\mahen\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:852:17)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+=============================================================
+{"level":30,"time":"2024-01-01T18:26:59.498Z","pid":8080,"hostname":"mahen","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-01T18:26:59.499Z","pid":8080,"hostname":"mahen","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-01-01T18:26:59.721Z","pid":8080,"hostname":"mahen","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-01-01T18:26:59.722Z","pid":8080,"hostname":"mahen","msg":"End of node method closeAllBrowsers"}

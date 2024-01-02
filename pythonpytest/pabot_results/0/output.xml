@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.1 on win32)" generated="20240102 08:39:11.763" rpa="false" schemaversion="4">
+<suite id="s1" name="Parallel" source="C:\python\pycharm\pythonpytest\parallel">
+<suite id="s1-s1" name="SuiteA" source="C:\python\pycharm\pythonpytest\parallel\SuiteA.robot">
+<test id="s1-s1-t1" name="Test Case 1" line="2">
+<kw name="Log" library="BuiltIn">
+<arg>Test Case 1</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20240102 08:39:11.874" level="INFO">Test Case 1</msg>
+<status status="PASS" starttime="20240102 08:39:11.873" endtime="20240102 08:39:11.874"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20240102 08:39:21.877" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20240102 08:39:11.875" endtime="20240102 08:39:21.877"/>
+</kw>
+<status status="PASS" starttime="20240102 08:39:11.871" endtime="20240102 08:39:21.877"/>
+</test>
+<test id="s1-s1-t2" name="Test Case 2" line="6">
+<kw name="Log" library="BuiltIn">
+<arg>Test Case 2</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20240102 08:39:21.885" level="INFO">Test Case 2</msg>
+<status status="PASS" starttime="20240102 08:39:21.881" endtime="20240102 08:39:21.885"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20240102 08:39:31.886" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20240102 08:39:21.885" endtime="20240102 08:39:31.886"/>
+</kw>
+<status status="PASS" starttime="20240102 08:39:21.881" endtime="20240102 08:39:31.886"/>
+</test>
+<test id="s1-s1-t3" name="Test Case 3" line="10">
+<kw name="Log" library="BuiltIn">
+<arg>Test Case 3</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20240102 08:39:31.888" level="INFO">Test Case 3</msg>
+<status status="PASS" starttime="20240102 08:39:31.888" endtime="20240102 08:39:31.888"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>10s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20240102 08:39:41.889" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" starttime="20240102 08:39:31.888" endtime="20240102 08:39:41.889"/>
+</kw>
+<status status="PASS" starttime="20240102 08:39:31.887" endtime="20240102 08:39:41.889"/>
+</test>
+<status status="PASS" starttime="20240102 08:39:11.865" endtime="20240102 08:39:41.891"/>
+</suite>
+<status status="PASS" starttime="20240102 08:39:11.808" endtime="20240102 08:39:41.893"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Parallel">Parallel</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s1" name="SuiteA">Parallel.SuiteA</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

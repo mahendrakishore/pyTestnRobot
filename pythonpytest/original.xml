@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.1 on win32)" generated="20240102 08:07:56.160" rpa="false" schemaversion="4">
+<suite id="s1" name="Datadriven" source="C:\python\pycharm\pythonpytest\Tests\datadriven.robot">
+<test id="s1-t1" name="Invalid User Name" line="6">
+<kw name="Login with invalid credentials should fail">
+<arg>invalid</arg>
+<arg>${VALID PASSWORD}</arg>
+<msg timestamp="20240102 08:07:56.215" level="FAIL">Variable '${VALID PASSWORD}' not found.</msg>
+<status status="FAIL" starttime="20240102 08:07:56.214" endtime="20240102 08:07:56.215"/>
+</kw>
+<status status="FAIL" starttime="20240102 08:07:56.212" endtime="20240102 08:07:56.216">Variable '${VALID PASSWORD}' not found.</status>
+</test>
+<test id="s1-t2" name="Invalid Password" line="7">
+<kw name="Login with invalid credentials should fail">
+<arg>${VALID USER}</arg>
+<arg>invalid</arg>
+<msg timestamp="20240102 08:07:56.222" level="FAIL">Variable '${VALID USER}' not found.</msg>
+<status status="FAIL" starttime="20240102 08:07:56.221" endtime="20240102 08:07:56.222"/>
+</kw>
+<status status="FAIL" starttime="20240102 08:07:56.220" endtime="20240102 08:07:56.223">Variable '${VALID USER}' not found.</status>
+</test>
+<test id="s1-t3" name="Invalid User Name and Password" line="8">
+<kw name="Login with invalid credentials should fail">
+<arg>invalid</arg>
+<arg>invalid</arg>
+<kw name="Log Many" library="BuiltIn">
+<arg>${uname}</arg>
+<arg>${pass}</arg>
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<msg timestamp="20240102 08:07:56.228" level="INFO">invalid</msg>
+<msg timestamp="20240102 08:07:56.228" level="INFO">invalid</msg>
+<status status="PASS" starttime="20240102 08:07:56.228" endtime="20240102 08:07:56.228"/>
+</kw>
+<status status="PASS" starttime="20240102 08:07:56.227" endtime="20240102 08:07:56.228"/>
+</kw>
+<status status="PASS" starttime="20240102 08:07:56.226" endtime="20240102 08:07:56.229"/>
+</test>
+<test id="s1-t4" name="Empty User Name" line="9">
+<kw name="Login with invalid credentials should fail">
+<arg>${EMPTY}</arg>
+<arg>${VALID PASSWORD}</arg>
+<msg timestamp="20240102 08:07:56.238" level="FAIL">Variable '${VALID PASSWORD}' not found.</msg>
+<status status="FAIL" starttime="20240102 08:07:56.236" endtime="20240102 08:07:56.238"/>
+</kw>
+<status status="FAIL" starttime="20240102 08:07:56.235" endtime="20240102 08:07:56.241">Variable '${VALID PASSWORD}' not found.</status>
+</test>
+<test id="s1-t5" name="Empty Password" line="10">
+<kw name="Login with invalid credentials should fail">
+<arg>${VALID USER}</arg>
+<arg>${EMPTY}</arg>
+<msg timestamp="20240102 08:07:56.281" level="FAIL">Variable '${VALID USER}' not found.</msg>
+<status status="FAIL" starttime="20240102 08:07:56.280" endtime="20240102 08:07:56.281"/>
+</kw>
+<status status="FAIL" starttime="20240102 08:07:56.279" endtime="20240102 08:07:56.282">Variable '${VALID USER}' not found.</status>
+</test>
+<test id="s1-t6" name="Empty User Name and Password" line="11">
+<kw name="Login with invalid credentials should fail">
+<arg>${EMPTY}</arg>
+<arg>${EMPTY}</arg>
+<kw name="Log Many" library="BuiltIn">
+<arg>${uname}</arg>
+<arg>${pass}</arg>
+<doc>Logs the given messages as separate entries using the INFO level.</doc>
+<msg timestamp="20240102 08:07:56.292" level="INFO"/>
+<msg timestamp="20240102 08:07:56.293" level="INFO"/>
+<status status="PASS" starttime="20240102 08:07:56.292" endtime="20240102 08:07:56.293"/>
+</kw>
+<status status="PASS" starttime="20240102 08:07:56.290" endtime="20240102 08:07:56.293"/>
+</kw>
+<status status="PASS" starttime="20240102 08:07:56.286" endtime="20240102 08:07:56.293"/>
+</test>
+<status status="FAIL" starttime="20240102 08:07:56.164" endtime="20240102 08:07:56.301"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="4" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="4" skip="0" id="s1" name="Datadriven">Datadriven</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

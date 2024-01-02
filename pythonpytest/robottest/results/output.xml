@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.12.1 on win32)" generated="20240101 19:13:19.676" rpa="false" schemaversion="4">
+<suite id="s1" name="Videorobot" source="C:\python\pycharm\pythonpytest\robottest\videorobot.robot">
+<test id="s1-t1" name="TEST" line="6">
+<kw name="Count Files In Directory" library="OperatingSystem">
+<arg>c:</arg>
+<doc>Wrapper for `Count Items In Directory` returning only file count.</doc>
+<msg timestamp="20240101 19:13:19.999" level="INFO" html="true">Listing contents of directory '&lt;a href="file://c:\"&gt;c:\&lt;/a&gt;'.</msg>
+<msg timestamp="20240101 19:13:20.000" level="INFO">0 files.</msg>
+<status status="PASS" starttime="20240101 19:13:19.998" endtime="20240101 19:13:20.000"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>This is Test Cases</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20240101 19:13:20.002" level="INFO">This is Test Cases</msg>
+<status status="PASS" starttime="20240101 19:13:20.001" endtime="20240101 19:13:20.002"/>
+</kw>
+<status status="PASS" starttime="20240101 19:13:19.933" endtime="20240101 19:13:20.002"/>
+</test>
+<doc>This is my robot test case Settings</doc>
+<status status="PASS" starttime="20240101 19:13:19.680" endtime="20240101 19:13:20.005"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Videorobot">Videorobot</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
