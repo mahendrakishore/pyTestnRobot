@@ -8,3 +8,6 @@ def test_input_total_div_10(input_total):
 
 def test_input_total_div_09(input_total):
     assert input_total%9==0
+@pytest.fixture(depends=["input_total"])
+def pr():
+    print("hello")

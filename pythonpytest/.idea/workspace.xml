@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4277d450-4a7d-44c6-bddb-3a728f0f6a12" name="Changes" comment="" />
+    <list default="true" id="4277d450-4a7d-44c6-bddb-3a728f0f6a12" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_pratice/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_pratice/newoverride.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_pratice/parentchild.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_pratice/py_prac1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_pratice/py_prac2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_pratice/py_prac3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_pratice/py_prac4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_pratice/py_prac5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py_pratice/stringlist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytestrerun/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytestrerun/rerun.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_question/py_program.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonpytest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonpytest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testconfigurationfile/pytestfixture1.py" beforeDir="false" afterPath="$PROJECT_DIR$/testconfigurationfile/pytestfixture1.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,13 +34,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2aIQlaGFBr3mCKzyJL1WWQKgumo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,7 +63,10 @@
     &quot;Python tests.pytest in unitprac.py.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/python/pycharm/pythonpytest/Tests&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/python/pycharm/pythonpytest/py_pratice&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -47,6 +76,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\python\pycharm\pythonpytest\py_pratice" />
       <recent name="C:\python\pycharm\pythonpytest\Tests" />
       <recent name="C:\python\pycharm\pythonpytest\testconfigurationfile" />
       <recent name="C:\python\pycharm\pythonpytest" />
