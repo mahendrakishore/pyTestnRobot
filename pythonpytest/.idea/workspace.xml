@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4277d450-4a7d-44c6-bddb-3a728f0f6a12" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_pratice/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_pratice/newoverride.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_pratice/parentchild.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_pratice/py_prac1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_pratice/py_prac2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_pratice/py_prac3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_pratice/py_prac4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_pratice/py_prac5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/py_pratice/stringlist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytestrerun/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytestrerun/rerun.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_question/py_program.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonpytest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonpytest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testconfigurationfile/pytestfixture1.py" beforeDir="false" afterPath="$PROJECT_DIR$/testconfigurationfile/pytestfixture1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py_pratice/stringlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_pratice/stringlist.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

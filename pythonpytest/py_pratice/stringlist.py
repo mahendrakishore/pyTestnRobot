@@ -13,4 +13,11 @@ for k,v in d.items():
         print(k,":",d[k])
 
 
+class ConstructorReturn:
+    def __init__(self)->None:
+        print("def __init__(self)->None")
+
+ConstructorReturnObj = ConstructorReturn()
+
+
 
